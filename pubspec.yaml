@@ -1,0 +1,155 @@
+name: wsac
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.1 <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  amplify_api: ^1.1.0
+  amplify_auth_cognito: ^1.1.0
+  amplify_flutter: ^1.1.0
+  amplify_storage_s3: ^1.1.0
+  aws_secretsmanager_api: ^2.0.0
+  another_flushbar: ^1.12.29
+  app_links: ^3.4.3
+  cached_network_image: ^3.2.3
+  carousel_slider: ^4.2.1
+  cloud_firestore: ^4.3.1
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  dio: ^4.0.6
+  enum_to_string: ^2.0.1
+  equatable: ^2.0.5
+  firebase_core: ^2.4.1
+  firebase_remote_config: ^3.0.9
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  flutter_dotenv: ^5.0.2
+  flutter_screenutil: ^5.6.1
+  flutter_svg: ^2.0.0+1
+  flutter_zoom_drawer: 3.0.3
+  get_it: ^7.2.0
+  http: ^0.13.5
+  http_parser: ^4.0.2
+  image_picker: ^0.8.6+1
+  intl: null
+  lottie: ^2.3.0
+  onesignal_flutter: ^3.5.0
+  package_info_plus: ^3.0.2
+  permission_handler: ^10.3.0
+  shared_preferences: ^2.0.17
+  snapping_sheet: ^3.1.0
+  appinio_swiper: ^2.0.3
+  top_modal_sheet: ^2.0.1
+  url_launcher: ^6.1.8
+  autocomplete_textfield: ^2.0.1
+  dropdown_button2: ^2.3.6
+  video_player: ^2.6.1
+  percent_indicator: ^4.2.3
+  gauges: ^1.0.0
+  share_plus: ^7.1.0
+  shimmer: ^2.0.0
+  photo_view: ^0.14.0
+  connectivity_plus: ^3.0.4
+  syncfusion_flutter_sliders: ^21.2.8
+  flutter_typeahead: ^4.3.7
+  webview_flutter: ^4.2.0
+  flutter_rating_bar: ^4.0.1
+  flutter_slidable: ^3.0.0
+  dotted_line: ^3.1.0
+  easy_refresh: ^3.3.2+1
+  # file_picker: ^5.3.1
+  path_provider: ^2.0.15
+  # open_file_plus: ^3.4.1
+  tutorial_coach_mark: ^1.2.8
+  dots_indicator: ^3.0.0
+  validators: ^3.0.0
+  sentry_flutter: ^7.8.0
+  geolocator: ^9.0.2
+  flutter_native_splash: ^2.3.1
+  syncfusion_flutter_gauges: ^21.2.10
+  smart_auth: ^1.0.8
+  flutter_staggered_grid_view: ^0.6.2
+  path: ^1.8.3
+  flutter_jailbreak_detection: ^1.10.0
+  aws_common: ^0.5.0+1
+  image_cropper: ^4.0.1
+  twitter_login: ^4.4.0
+  flutter_inappwebview: ^5.7.2+3
+  super_banners: ^0.0.1
+  ntp: ^2.0.0
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - .dev_env #environment configuration file
+    - assets/images/png/
+    - assets/images/svg/
+    - assets/json/
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: PTSans
+      fonts:
+        - asset: assets/fonts/PTSans/PTSans-Regular.ttf
+        - asset: assets/fonts/PTSans/PTSans-Italic.ttf
+          style: italic
+        - asset: assets/fonts/PTSans/PTSans-Bold.ttf
+          weight: 700
+    - family: Oswald
+      fonts:
+        - asset: assets/fonts/Oswald/Oswald-Regular.ttf
+        - asset: assets/fonts/Oswald/Oswald-Light.ttf
+        - asset: assets/fonts/Oswald/Oswald-Bold.ttf
+    - family: Magistral
+      fonts:
+        - asset: assets/fonts/Magistral/Magistral-Book.ttf
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter/Inter-Regular.ttf
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "903966969315",
+    "project_id": "dev-wsac",
+    "storage_bucket": "dev-wsac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903966969315:android:516b906e844b919089a4d6",
+        "android_client_info": {
+          "package_name": "com.app.wsac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903966969315-obtfg93tatcmscn77bs4q426utu3n2cg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9Kc8fcrq5qBOH9ajiY-V_lCHGsneylbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903966969315-obtfg93tatcmscn77bs4q426utu3n2cg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

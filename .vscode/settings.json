@@ -1,0 +1,25 @@
+{
+    "cSpell.words": [
+        "Autovalidate",
+        "AWSURL",
+        "Chewie",
+        "colour",
+        "cupertino",
+        "Debouncer",
+        "dotenv",
+        "firestore",
+        "monek",
+        "passwordless",
+        "screenutil",
+        "snapshort",
+        "tiktok",
+        "wsac"
+    ],
+    "dart.flutterSdkPath": ".fvm/flutter_sdk",
+    "search.exclude": {
+        "**/.fvm": true
+    },
+    "files.watcherExclude": {
+        "**/.fvm": true
+    }
+}

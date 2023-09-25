@@ -1,0 +1,9 @@
+<svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="paint0_linear_93_12062" x1="0" y1="14.5022" x2="30" y2="14.5022" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF8177"/>
+<stop offset="1" stop-color="#B22B5B"/>
+</linearGradient>
+</defs>
+<ellipse cx="15" cy="14.5" rx="15" ry="14.5" fill="url(#paint0_linear_93_12062)"/>
+</svg>

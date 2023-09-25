@@ -1,0 +1,53 @@
+ENV_NAME=dev
+#one signal application id
+ONE_SIGNAL_APP_ID=409661cb-ac68-4e0f-90a3-4fbf2e8d3754
+
+#domain 
+BASE_URL=https://dev-api-wsac.emvigotech.co.uk
+
+#dev
+#https://dev-api-wsac.emvigotech.co.uk
+#qa
+#https://qa-api-wsac.emvigotech.co.uk
+#uat
+#https://uat-api-wsac.emvigotech.co.uk
+
+#amplify configurations
+COGNITO_USER_POOL_APP_CLIENT_ID=70q1b8tofsnus4takp5g7gdai7
+COGNITO_USER_POOL_ID=eu-west-2_5jEnmAe6J
+COGNITO_REGION=eu-west-2
+AMPLIFY_AUTH=CUSTOM_AUTH
+APP_COGNITO_OAUTH_DOMAIN_URL=dev-weswapanycar.auth.eu-west-2.amazoncognito.com
+COGNITO_IDENTITY_POOL_ID=eu-west-2:8ce349b2-a438-4b09-b2bc-120131843887
+#redirect uri
+SIGN_IN_REDIRECT_URI=myapp:// 
+SIGN_OUT_REDIRECT_URI=myapp://
+#graphQL
+GRAPHQL_URL=https://hxdp7faeqzbuzpmkhb3mffvgla.appsync-api.eu-west-2.amazonaws.com/graphql
+GRAPHQL_API_NAME=dev-wsac
+REST_API_NAME=PrimaryApi
+
+#s3 bucket name
+BUCKET_NAME=wsac-bucket
+BUCKET_REGION=eu-west-2
+BUCKET_URL=https://wsac-bucket.s3.eu-west-2.amazonaws.com/public
+
+#monek payment
+SUCCESS_URL=https://dev-weswapanycar.emvigotech.co.uk/app/payments/success
+FALL_BACK_URL=https://dev-weswapanycar.emvigotech.co.uk/app/payments/failure
+
+#sentry
+SENTRY_URL=https://39ad38c97c874b44b20becbe6259a22c@o4504750559854592.ingest.sentry.io/4505430166142976
+
+#twitter api keys
+TWITTER_API_KEY=GOKQuILQ1RIyR1GYu9Xl5gsWZ
+TWITTER_SECRET_KEY=4Y9TZd91pBHJpjGYmTjfp8loLkExN6cpW8Syqg30FixbWIauBo
+
+#cloud front url
+CLOUD_FRONT=https://dgyc1qk8c6uii.cloudfront.net/public
+
+#tiktok login
+TIKTOK_REDIRECT_URI=https://dev-weswapanycar.emvigotech.co.uk/tiktok/callback
+
+#remote config minimum fetch interval time. in dev, this value can be 0. But on production minimum 12 (hours) is recommended.
+DEFAULT_REMOTE_CONFIG_MIN_FETCH_INTERVAL=1
